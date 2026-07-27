@@ -1,0 +1,35 @@
+{
+  "name": "EarnWise Prototypes",
+  "short_name": "EarnWise",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#FCF8F6",
+  "theme_color": "#FCF8F6",
+  "description": "EarnWise design prototypes \u2014 feel-the-flow builds. Fake data, real motion.",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icons/Icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/Icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/Icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/Icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
