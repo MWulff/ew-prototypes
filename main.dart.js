@@ -8177,8 +8177,8 @@ arR:function arR(){},
 arS:function arS(){},
 Lv:function Lv(a){this.a=a},
 a5J:function a5J(){},
-aTg(a){if(a>=7)return"$0.50 set for Monday"
-if(a>=3)return"$0.25 set for Monday"
+aTg(a){if(a>=7)return"All 7 \u2014 +100 tickets"
+if(a>=3)return"3 days \u2014 +30 tickets"
 if(a>=1)return"$0.10 set for Monday"
 return"Your first day starts it"},
 aCV(a){var s=A.fd(J.ki(a.ah(t.Xh).f.a,"activeDays"))
