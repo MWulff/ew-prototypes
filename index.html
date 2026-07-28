@@ -41,6 +41,18 @@
     For more details:
     * https://docs.flutter.dev/platform-integration/web/initialization
   -->
+  <script>
+    // Prototype rule: the freshest build wins. When an updated service worker
+    // takes control, reload once so nobody reviews stale copy.
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.addEventListener('controllerchange', function () {
+        if (!window.__reloadedForUpdate) {
+          window.__reloadedForUpdate = true;
+          window.location.reload();
+        }
+      });
+    }
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
