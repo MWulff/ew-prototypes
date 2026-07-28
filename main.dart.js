@@ -43415,9 +43415,9 @@ gacW(){var s,r=this.d
 if(r>=7)return"Monday brings +10 more"
 if(r>=3){s=7-r
 r=s===1?"":"s"
-return""+s+" more day"+r+" \u2014 +100 tickets"}s=3-r
+return""+s+" more day"+r+" for +100 tickets"}s=3-r
 r=s===1?"":"s"
-return""+s+" more day"+r+" \u2014 +30 tickets"},
+return""+s+" more day"+r+" for +30 tickets"},
 G(a){var s,r,q,p,o,n,m,l,k,j=null,i=A.F(a).ax,h=A.F(a).ok
 t.v.a(A.F(a).c.i(0,A.ag(t.Y))).toString
 s=i.c
@@ -43818,7 +43818,7 @@ q=A.F(a).ok.z
 q.toString
 p=A.F(a).ax
 o=p.rx
-q=A.aN("A short video \u2014 1 of 2 today. (Stub: the real Sponsor Break surface exists as a Figma template.)",n,n,n,q.aH(o==null?p.k3:o),n)
+q=A.aN("A short video, 1 of 2 today. (Stub: the real Sponsor Break surface exists as a Figma template.)",n,n,n,q.aH(o==null?p.k3:o),n)
 l.a(A.F(a).c.i(0,A.ag(m))).toString
 return new A.by(new A.am(20,20,20,20),A.cz(A.b([s,r,q,A.ak(n,20,n),A.ak(A.a2M(B.Uy,new A.ah5(a)),n,1/0)],t.p),B.aj,B.u,B.at),n)},
 $S:354}
@@ -44141,7 +44141,7 @@ g=A.atV(A.cz(A.b([d,a,A.aN("Press, pull down, let go",a7,a7,a7,a0.aH(b?a8.k3:c),
 p=p===B.lA?0.6:1
 d=a6.r
 if(d===B.lB)r="New tickets arrive with your week."
-else r=q?s.a+" \u2014 "+r+" tickets. "+B.nO[a6.f]+".":"Not enough tickets for this Spin."
+else r=q?s.a+" costs "+r+" tickets. "+B.nO[a6.f]+".":"Not enough tickets for this Spin."
 a=a8.k3
 f=A.Zl(A.aN(r,new A.bS(""+a6.f+"-"+q+"-"+d.k(0),f),a7,a7,a0.aH(a),B.bM),B.DJ)
 d=A.ak(a7,a7,4)
@@ -44326,7 +44326,7 @@ a0.push(A.co(c0,new A.il(B.C,c0,c0,A.aN(b7,c0,c0,c0,a3.aH(b1),c0),c0),B.q,c0,c0,
 c2=A.ak(c0,16,c0)
 a3=A.aN(""+a1+" of 7 days active",c0,c0,c0,a3,c0)
 c3=A.ak(c0,4,c0)
-r=a1>=3?"30 tickets added \u2014 all 7 days adds 100 more":"$0.10 set for Monday \u2014 3 days adds 30 tickets"
+r=a1>=3?"30 tickets added. All 7 days adds 100 more.":"$0.10 set for Monday. 3 days adds 30 tickets."
 c1=A.b([s,p,n,m,l,i,h,e,c,b,c1,c2,a3,c3,A.aN(r,c0,c0,c0,d.aH(j?a7:k),c0),A.ak(c0,24,c0),A.aN("Past weeks",c0,c0,c0,o.w,c0),A.ak(c0,12,c0)],a)
 for(b8=0;b8<3;++b8){b9=B.HO[b8]
 B.b.M(c1,A.b([new A.oU(b9.a,b9.b,b9.c,c0),new A.cw(c0,12,c0,c0)],a))}return A.u3(c1,c5,new A.am(24,12,24,32),c0,B.an)},
@@ -44349,7 +44349,7 @@ o.toString
 n=a5.rx
 m=n==null
 l=t.p
-o=A.b([a6,s,q,p,A.aN("Every Spin pays something \u2014 these are all the prizes and their odds, floor to ceiling.",a4,a4,a4,o.aH(m?a5.k3:n),a4)],l)
+o=A.b([a6,s,q,p,A.aN("Every Spin pays something. These are all the prizes and their odds, floor to ceiling.",a4,a4,a4,o.aH(m?a5.k3:n),a4)],l)
 for(a6=t.Y,s=t.v,q=r.Q,p=r.at,r=r.w,a5=a5.k3,k=0;k<3;++k){j=B.ay[k]
 i=A.aN(j.a,a4,a4,a4,r,a4)
 h=A.n6()
@@ -44419,7 +44419,7 @@ G(a6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3=null,a4=A.F(a6).ax,a
 t.v.a(A.F(a6).c.i(0,A.ag(t.Y))).toString
 s=t.Ue
 r=this.c
-q=[new A.d1(A.n6(),"Your week pays tickets",A.b([new A.a4(A.aLl(),"3 active days \u2014 +30 tickets"),new A.a4(A.aLm(),"All 7 days \u2014 +100"),new A.a4(A.aLs(),"Every Monday \u2014 +10, always"),new A.a4(A.aLp(),"They never expire")],s)),new A.d1(A.aLz(),"Pick your Spin",A.b([new A.a4(A.AR(),"Little \u2014 10 tickets, always wins"),new A.a4(A.aLq(),"Big \u2014 30, two must match"),new A.a4(A.AS(B.eE),"Grand \u2014 100, the top prizes"),new A.a4(A.aAr(),"Every prize and its odds: tap \u24d8")],s)),new A.d1(A.aLt(),"Spin it",A.b([new A.a4(A.aLu(),"Press the reels"),new A.a4(A.aLj(),"Pull down"),new A.a4(A.aLy(),"Let go \u2014 they spin"),new A.a4(A.aLi(),"Let go early? Nothing spent")],s))][r]
+q=[new A.d1(A.n6(),"Your week pays tickets",A.b([new A.a4(A.aLl(),"+30 tickets for 3 active days"),new A.a4(A.aLm(),"+100 for all 7 days"),new A.a4(A.aLs(),"+10 every Monday, always"),new A.a4(A.aLp(),"They never expire")],s)),new A.d1(A.aLz(),"Pick your Spin",A.b([new A.a4(A.AR(),"Little: 10 tickets, always wins"),new A.a4(A.aLq(),"Big: 30, two must match"),new A.a4(A.AS(B.eE),"Grand: 100, the top prizes"),new A.a4(A.aAr(),"Every prize and its odds: tap \u24d8")],s)),new A.d1(A.aLt(),"Spin it",A.b([new A.a4(A.aLu(),"Press the reels"),new A.a4(A.aLj(),"Pull down"),new A.a4(A.aLy(),"Let go, they spin"),new A.a4(A.aLi(),"Let go early? Nothing spent")],s))][r]
 p=q.c
 s=a4.x2
 s=(s==null?B.l:s).jk(0.32)
@@ -93263,7 +93263,7 @@ s($,"aXJ","aGN",()=>{var q=null,p="/weekly-rhythm/home",o=$.axw(),n=A.b([new A.L
 return A.aK1(!1,q,q,q,q,p,o,n,q,!1,q,!0,q,!1,new A.QC(new A.acm(m,A.aTm(),5,q)))})
 s($,"aY3","xd",()=>A.b([new A.arV(),new A.arW(),new A.arX(),new A.arY(),new A.arZ()],A.a8("v<fR()>")))
 s($,"aY7","atF",()=>{var q="In your balance.",p="On your next survey. Whenever you like.",o="+20% boost",n="+25% boost",m=A.a8("v<Fo>")
-return A.b([A.b([A.fE(new A.as3(),"$0.05",q,!0,0),A.fE(new A.as4(),"+10% boost","On your next activity. It applies on its own.",!1,0),A.fE(new A.as5(),"+15% boost",p,!1,0),A.fE(new A.asa(),"+10 tickets","Straight into your purse.",!1,10),A.fE(new A.asb(),"$0.10",q,!0,0)],m),A.b([A.fE(new A.asc(),"$0.30",q,!0,0),A.fE(new A.asd(),o,"On your next 3 activities. It applies on its own.",!1,0),A.fE(new A.ase(),n,p,!1,0),A.fE(new A.asf(),"+30 tickets","Straight into your purse \u2014 a free Big Spin.",!1,30),A.fE(new A.asg(),"$0.60",q,!0,0)],m),A.b([A.fE(new A.ash(),"$1.00",q,!0,0),A.fE(new A.as6(),o,"On your next 5 activities. It applies on its own.",!1,0),A.fE(new A.as7(),n,"On your next 2 surveys. Whenever you like.",!1,0),A.fE(new A.as8(),"+100 tickets","Straight into your purse \u2014 a free Grand Spin.",!1,100),A.fE(new A.as9(),"$3.00",q,!0,0)],m)],A.a8("v<T<Fo>>"))})
+return A.b([A.b([A.fE(new A.as3(),"$0.05",q,!0,0),A.fE(new A.as4(),"+10% boost","On your next activity. It applies on its own.",!1,0),A.fE(new A.as5(),"+15% boost",p,!1,0),A.fE(new A.asa(),"+10 tickets","Straight into your purse.",!1,10),A.fE(new A.asb(),"$0.10",q,!0,0)],m),A.b([A.fE(new A.asc(),"$0.30",q,!0,0),A.fE(new A.asd(),o,"On your next 3 activities. It applies on its own.",!1,0),A.fE(new A.ase(),n,p,!1,0),A.fE(new A.asf(),"+30 tickets","Straight into your purse. Enough for a Big Spin.",!1,30),A.fE(new A.asg(),"$0.60",q,!0,0)],m),A.b([A.fE(new A.ash(),"$1.00",q,!0,0),A.fE(new A.as6(),o,"On your next 5 activities. It applies on its own.",!1,0),A.fE(new A.as7(),n,"On your next 2 surveys. Whenever you like.",!1,0),A.fE(new A.as8(),"+100 tickets","Straight into your purse. Enough for a Grand Spin.",!1,100),A.fE(new A.as9(),"$3.00",q,!0,0)],m)],A.a8("v<T<Fo>>"))})
 s($,"aX4","axh",()=>A.fE(new A.arj(),"$0.05","In your balance.",!0,0))
 s($,"aXe","aGs",()=>A.OE(1,1,500))
 s($,"aWi","aFN",()=>A.aO9(new A.ajo(),t.Pb))
