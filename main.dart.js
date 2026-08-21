@@ -46550,7 +46550,7 @@ t.y.a(A.l(a6).c.i(0,A.a0(t.Y))).toString
 s=A.bb(a6,B.db,t.w).w.ax
 r=a2.d
 q=r===2
-p=[B.PK,B.PJ,B.PI][r].a
+p=[B.PK,B.PI,B.PJ][r].a
 o=p[0]
 n=p[1]
 m=p[2]
@@ -46579,15 +46579,15 @@ else a=f==null?r:f
 h.a(A.l(a6).c.i(0,A.a0(i))).toString
 a1=new A.av(999,999)
 p.push(A.a0u(a3,a3,B.a7,new A.aX(a,a3,a3,new A.c4(a1,a1,a1,a1),a3,a3,B.x),B.L,a3,8,new A.a1(2,0,2,0),a0))}g.push(A.bi(p,B.n,B.aZ,B.r))
-g.push(A.L(a3,20,a3))
+g.push(A.L(a3,32,a3))
 p=q?a2.ga8h():new A.asD(a2)
 g.push(A.pB(A.a7(q?"Start day 1":"Next",a3,a3,a3,a3,a3),p))
-p=q?a3:a2.gahF()
-i=q?"":"Skip"
-h=a5.as
-h.toString
-g.push(A.w1(A.a7(i,a3,a3,a3,h.ae(d?a4.k3:e),a3),p,a3))
-g.push(A.L(a3,12,a3))
+g.push(A.L(a3,16,a3))
+if(q)p=a3
+else{p=a5.as
+p.toString
+p=A.w1(A.a7("Skip",a3,a3,a3,p.ae(d?a4.k3:e),a3),a2.gahF(),a3)}g.push(A.L(p,40,1/0))
+g.push(A.L(a3,16,a3))
 return A.ki(a3,r,A.jc(!0,new A.aH(new A.a1(24,0,24,0),A.bH(g,B.dk,B.o,B.r),a3),B.a4,!0),a3,!1)}}
 A.asE.prototype={
 $2(a,b){var s,r,q
@@ -46777,9 +46777,10 @@ if(q){j=A.b([],j)
 f=k[1]
 if(f!=null){c=a1.e
 b=c?a2:new A.at4(a1,a5)
-j.push(new A.aH(new A.a1(8,0,8,0),p.$2(A.L(A.pB(A.a7(c?"Watching\u2026":f,a2,a2,a2,a2,a2),b),a2,1/0),3),a2))}k=k[1]==null?"Done":"Later"
-j.push(p.$2(A.w1(A.a7(k,a2,a2,a2,a4.as.ae(m),a2),new A.at5(a5),a2),4))
-B.b.N(h,j)}h.push(A.L(a2,12,a2))
+j.push(new A.aH(new A.a1(8,0,8,0),p.$2(A.L(A.pB(A.a7(c?"Watching\u2026":f,a2,a2,a2,a2,a2),b),a2,1/0),3),a2))}if(k[1]!=null)j.push(A.L(a2,16,a2))
+k=k[1]==null?"Done":"Later"
+j.push(new A.aH(new A.a1(8,0,8,0),p.$2(A.L(A.w1(A.a7(k,a2,a2,a2,a4.as.ae(m),a2),new A.at5(a5),a2),40,1/0),4),a2))
+B.b.N(h,j)}h.push(A.L(a2,16,a2))
 g.push(A.jc(!0,new A.aH(new A.a1(12,0,12,0),A.bH(h,B.n,B.o,B.r),a2),B.a4,!0))
 return A.fa(A.lv(!1,B.L,!0,a2,A.cE(B.au,g,B.A,B.a5),B.m,B.I,0,a2,a2,a2,a2,a2,B.c7),n,!0)}}
 A.at8.prototype={
@@ -95703,9 +95704,9 @@ B.Pr=new A.aa(B.i2,B.i0)
 B.Pt=new A.aa(!0,!1)
 B.Pu=new A.aa(!0,!0)
 B.Pv=new A.aa(B.ik,B.ij)
-B.PI=new A.xo(["boost","Easy to keep","Miss a day? Tomorrow can still count.",null])
-B.PJ=new A.xo(["star","Day 3 pays a Spin","A Spin is a free pull on the reels. Whatever lands is yours.","Day 10 pays a Grand Spin. Then a new round starts."])
-B.PK=new A.xo(["coin","Your days add up now","Every day you earn counts. String them together and they pay.",null])
+B.PI=new A.xo(["star","Day 3 pays a Spin","A Spin is a free pull on the reels. Whatever lands is yours.","Day 10 pays a Grand Spin. Then a new round starts."])
+B.PJ=new A.xo(["boost","Easy to keep","Miss a day? You will always have the chance to recover a day lost.",null])
+B.PK=new A.xo(["coin","Your days add up now","Every day you earn counts. String them together and get rewarded extra.",null])
 B.PL=new A.r(-1/0,-1/0,1/0,1/0)
 B.d2=new A.r(-1e9,-1e9,1e9,1e9)
 B.yO=new A.vp(0,"start")
