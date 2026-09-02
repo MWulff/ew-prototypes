@@ -47175,13 +47175,13 @@ switch(q.c.a){case 0:q=o===1?"You started a streak.":"Come back tomorrow and you
 q=new A.oE(["boost",this.gDw()?"See how streaks work":s,o,!1,q])
 break
 case 1:q=o===1?"You started a streak. Your first Spin is ready.":"Three days in a row. You've earned your Spin."
-q=new A.oE(["star",p.c.length===0?s:r,o,!1,q])
+q=new A.oE(["spin",p.c.length===0?s:r,o,!1,q])
 break
 case 2:q=new A.oE(["frozen","Pick a task",5,!0,"Yesterday froze your streak. One more task today keeps it at day 5."])
 break
 case 3:q=new A.oE(["boost",null,o,!1,"Kept. Day 5 is yours."])
 break
-case 4:q=new A.oE(["star",p.c.length===0?s:r,7,!1,"Seven days. Your Grand Spin is ready. A new round starts tomorrow."])
+case 4:q=new A.oE(["spin",p.c.length===0?s:r,7,!1,"Seven days. Your Grand Spin is ready. A new round starts tomorrow."])
 break
 default:q=s}return q},
 D(a6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2=this,a3=null,a4=A.k(a6).ax,a5=A.k(a6).ok
@@ -47515,7 +47515,7 @@ i=A.br(999)
 h=d.at
 h.toString
 g=e.rx
-B.b.N(n,A.b([k,A.b8(f,A.a2("\xd7"+l,f,f,f,h.a6(g==null?e.k3:g),f),B.l,f,f,new A.aK(j,f,f,i,f,f,B.w),f,f,f,f,B.nS,f,f,f)],m))}return A.b8(f,A.be(A.b([new A.dt("star",32,f),o,A.ij(A.be(n,B.n,B.o,B.r),1,f),A.aDD(B.YD,new A.aoz(a,s))],m),B.n,B.o,B.r),B.l,f,f,new A.aK(r,f,p,q,f,f,B.w),f,f,f,f,new A.Y(12,12,12,12),f,f,f)}}
+B.b.N(n,A.b([k,A.b8(f,A.a2("\xd7"+l,f,f,f,h.a6(g==null?e.k3:g),f),B.l,f,f,new A.aK(j,f,f,i,f,f,B.w),f,f,f,f,B.nS,f,f,f)],m))}return A.b8(f,A.be(A.b([new A.dt("spin",32,f),o,A.ij(A.be(n,B.n,B.o,B.r),1,f),A.aDD(B.YD,new A.aoz(a,s))],m),B.n,B.o,B.r),B.l,f,f,new A.aK(r,f,p,q,f,f,B.w),f,f,f,f,new A.Y(12,12,12,12),f,f,f)}}
 A.aoz.prototype={
 $0(){var s=this.b?2:1
 return A.dH(this.a).dT("/weekly-pull/granted/"+s,null)},
@@ -95205,7 +95205,7 @@ B.Qf=new A.ab(0.70678034,0.06529512)
 B.oU=s([B.Qj,B.Qi,B.Q5,B.Q8,B.Qh,B.Q_,B.Q4,B.Q6,B.Q2,B.Qe,B.Ql,B.Q3,B.Q0,B.Qf],A.ac("x<+(D,D)>"))
 B.Js=s([35,30,20,25,30,35,30,25,25],t.n)
 B.Jv=s(["click","scroll"],t.s)
-B.Jw=s(["coin","coins","star","coin"],t.s)
+B.Jw=s(["coin","coins","bundle","coin"],t.s)
 B.BR=new A.th()
 B.f8=new A.PF(1,"page")
 B.i1=new A.eo(B.b1,B.f8)
@@ -96733,8 +96733,8 @@ B.Tb=new A.Qp(null,null,null,null,!1)
 B.Td=new A.dt("boost",24,null)
 B.Te=new A.dt("coin",18,null)
 B.Tf=new A.dt("coin",44,null)
-B.A5=new A.dt("star",14,null)
-B.Tg=new A.dt("star",32,null)
+B.A5=new A.dt("spin",14,null)
+B.Tg=new A.dt("spin",32,null)
 B.Th=new A.dt("ticket",26,null)
 B.A6=new A.dt("ticket",28,null)
 B.cb=new A.Qr(1,"well")
