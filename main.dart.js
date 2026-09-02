@@ -47196,20 +47196,26 @@ if(!this.gNw().a[3]){s=this.a
 if(s.d.a!==1){r=s.c
 r=r!==B.fq&&r!==B.fr}}return r},
 gDz(){return this.a.d.a===1&&!J.d(J.e3(this.c.a4(t.E).f.a,"streakOnboardSeen"),!0)},
-gNw(){var s=null,r="Spin now",q=this.a,p=q.d,o=p.a
-switch(q.c.a){case 0:q=o===1?"You started a streak.":"Come back tomorrow and your Spin is ready."
-q=new A.oD(["boost",this.gDz()?"See how streaks work":s,o,!1,q])
+gNw(){var s=null,r="You started a streak.",q="Spin now",p=this.a,o=p.d,n=o.a
+switch(p.c.a){case 0:p=n===1?r:"Come back tomorrow and your Spin is ready."
+p=new A.oD(["boost",this.gDz()?"See how streaks work":s,n,!1,p])
 break
-case 1:q=o===1?"You started a streak. Your first Spin is ready.":"Three days in a row. You've earned your Spin."
-q=new A.oD(["spin",p.c.length===0?s:r,o,!1,q])
+case 1:p=o.c.length===0
+if(p)o=n===1?r:"Three days in a row."
+else o=n===1?"You started a streak. Your first Spin is ready.":"Three days in a row. You've earned your Spin."
+o=new A.oD(["spin",p?s:q,n,!1,o])
+p=o
 break
-case 2:q=new A.oD(["frozen","Pick a task",5,!0,"Yesterday froze your streak. One more task today keeps it at day 5."])
+case 2:p=new A.oD(["frozen","Pick a task",5,!0,"Yesterday froze your streak. One more task today keeps it at day 5."])
 break
-case 3:q=new A.oD(["boost",null,o,!1,"Kept. Day 5 is yours."])
+case 3:p=new A.oD(["boost",null,n,!1,"Kept. Day 5 is yours."])
 break
-case 4:q=new A.oD(["spin",p.c.length===0?s:r,7,!1,"Seven days. Your Grand Spin is ready. A new round starts tomorrow."])
+case 4:p=o.c.length===0
+o=p?"Seven days. A new round starts tomorrow.":"Seven days. Your Grand Spin is ready. A new round starts tomorrow."
+o=new A.oD(["spin",p?s:q,7,!1,o])
+p=o
 break
-default:q=s}return q},
+default:p=s}return p},
 C(a6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2=this,a3=null,a4=A.k(a6).ax,a5=A.k(a6).ok
 t.y.a(A.k(a6).c.i(0,A.a0(t.Y))).toString
 s=A.bd(a6,B.ck,t.w).w.ax||a2.e
@@ -47465,14 +47471,15 @@ g.toString
 m=m.rx
 f=t.p
 m=A.b([a1,i,A.bQ(A.a2(h,b,b,b,g.a8(m==null?j:m),B.aG),b,b),A.I(b,32,b),A.aeT(b,a0,b,b,b,!1,b)],f)
-if(a.e)B.b.M(m,A.b([A.I(b,40,b),new A.XJ(a0+1,b)],f))
-if(q||o){a1=A.b([A.I(b,40,b),A.a2("Done today",b,b,b,k.w,b),A.I(b,16,b)],f)
-if(q){j=J.d(a3.i(0,"streakSpunKind"),"grand")?"Grand Spin used":"Spin used"
-B.b.M(a1,A.b([new A.Fi(j,!1,b),A.I(b,12,b)],f))}if(o)a1.push(B.a09)
-B.b.M(m,a1)}a1=a.c
-if(a1.length!==0){k=A.b([A.I(b,40,b),A.a2("Your Spins",b,b,b,k.w,b),A.I(b,16,b)],f)
-for(j=A.a5(a1).h("aT<1>"),e=0;e<2;++e){d=B.K9[e]
-if(B.b.v(a1,d))B.b.M(k,A.b([new A.UB(d,new A.aT(a1,new A.atf(d),j).gF(0),b),new A.bO(b,12,b,b)],f))}B.b.M(m,k)}if(p&&!J.d(a3.i(0,c),a0))B.b.M(m,A.b([A.I(b,40,b),A.I(A.aDL(B.lT,new A.atg(this.a,a)),b,1/0)],f))
+a1=a.e
+if(a1)B.b.M(m,A.b([A.I(b,40,b),new A.XJ(a0+1,b)],f))
+if(q||o){j=A.b([A.I(b,40,b),A.a2("Done today",b,b,b,k.w,b),A.I(b,16,b)],f)
+if(q){i=J.d(a3.i(0,"streakSpunKind"),"grand")?"Grand Spin used":"Spin used"
+B.b.M(j,A.b([new A.Fi(i,!1,b),A.I(b,12,b)],f))}if(o)j.push(B.a09)
+B.b.M(m,j)}j=a.c
+if(j.length!==0){k=A.b([A.I(b,40,b),A.a2("Your Spins",b,b,b,k.w,b),A.I(b,16,b)],f)
+for(i=A.a5(j).h("aT<1>"),e=0;e<2;++e){d=B.K9[e]
+if(B.b.v(j,d))B.b.M(k,A.b([new A.UB(d,new A.aT(j,new A.atf(d),i).gF(0),b),new A.bO(b,12,b,b)],f))}B.b.M(m,k)}if(p&&!a1&&!J.d(a3.i(0,c),a0))B.b.M(m,A.b([A.I(b,40,b),A.I(A.aDL(B.lT,new A.atg(this.a,a)),b,1/0)],f))
 return A.ji(l,n.a,A.iv(m,b,new A.Y(20,24,20,32),b,B.a9),b,!1)},
 $S:112}
 A.ate.prototype={
