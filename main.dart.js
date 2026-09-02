@@ -46835,18 +46835,20 @@ C(a){var s=t.y.a(A.k(a).c.i(0,A.a0(t.Y)))
 s.toString
 return new A.da(a.a4(t.E).f,new A.atu(this,s),null,null,t.Kn)}}
 A.atu.prototype={
-$3(a,b,c){var s,r,q,p,o,n,m,l,k,j=null,i=A.QH(b),h=new A.Y(20,0,20,0),g=i.c,f=g.length!==0&&!J.d(b.i(0,"streakSpinBubbleSeen"),!0),e=i.a,d=e>1&&!J.d(b.i(0,"streakBonusDay"),e)
+$3(a,b,c){var s,r,q,p,o,n,m,l,k,j=null,i=A.QH(b),h=new A.Y(20,0,20,0),g=i.c,f=g.length!==0&&!J.d(b.i(0,"streakSpinBubbleSeen"),!0),e=i.a,d=e>1&&!i.e&&!J.d(b.i(0,"streakBonusDay"),e)
 if(J.d(b.i(0,"streakSeenActions"),!0))s=0
 else{g=g.length
-s=g+(d?1:0)}g=this.a
-r=t.p
-e=A.b([A.iv(A.b([A.I(j,12,j),new A.ay(h,A.b9(A.b([B.Go,new A.QG(e,s>0,s,e>0,new A.ato(g,a),j)],r),B.m,B.o,B.r),j),A.I(j,16,j),new A.ay(h,B.o_,j),A.I(j,16,j),new A.ay(h,B.kw,j),A.I(j,12,j),A.I(A.iv(A.b([new A.jX("Candy Crush Saga","Reach level 7","$1.00","game_candy_crush.jpg",new A.atp(g,a),j),A.I(j,j,12),new A.jX("Royal Match","Clear area 2","$1.00","game_royal_match.jpg",new A.atq(g,a),j)],r),j,h,B.kG,B.aj),88,j),A.I(j,20,j),new A.ay(h,B.ku,j),A.I(j,12,j),new A.ay(h,A.bw(A.b([new A.hC("Lifestyle survey","~ 3 min","$0.45",new A.atr(g,a),j),A.I(j,12,j),new A.hC("Shopping habits","~ 4 min","$0.45",new A.ats(g,a),j)],r),B.m,B.o,B.r),j),A.I(j,64,j)],r),j,B.a4,j,B.a9)],r)
-if(f){q=A.k(a).ax
-p=q.xr
-q=A.aAq(0.785398,A.b6(j,j,B.l,p==null?q.k3:p,j,j,j,10,j,j,j,j,j,10))
-p=A.k(a).ax
-o=p.xr
-p=o==null?p.k3:o
+s=g+(d?1:0)}g=A.I(j,12,j)
+r=e>0&&!i.e
+q=this.a
+p=t.p
+r=A.b([A.iv(A.b([g,new A.ay(h,A.b9(A.b([B.Go,new A.QG(e,s>0,s,r,new A.ato(q,a),j)],p),B.m,B.o,B.r),j),A.I(j,16,j),new A.ay(h,B.o_,j),A.I(j,16,j),new A.ay(h,B.kw,j),A.I(j,12,j),A.I(A.iv(A.b([new A.jX("Candy Crush Saga","Reach level 7","$1.00","game_candy_crush.jpg",new A.atp(q,a),j),A.I(j,j,12),new A.jX("Royal Match","Clear area 2","$1.00","game_royal_match.jpg",new A.atq(q,a),j)],p),j,h,B.kG,B.aj),88,j),A.I(j,20,j),new A.ay(h,B.ku,j),A.I(j,12,j),new A.ay(h,A.bw(A.b([new A.hC("Lifestyle survey","~ 3 min","$0.45",new A.atr(q,a),j),A.I(j,12,j),new A.hC("Shopping habits","~ 4 min","$0.45",new A.ats(q,a),j)],p),B.m,B.o,B.r),j),A.I(j,64,j)],p),j,B.a4,j,B.a9)],p)
+if(f){g=A.k(a).ax
+e=g.xr
+g=A.aAq(0.785398,A.b6(j,j,B.l,e==null?g.k3:e,j,j,j,10,j,j,j,j,j,10))
+e=A.k(a).ax
+o=e.xr
+e=o==null?e.k3:o
 o=A.bm(12)
 n=A.k(a).ok.at
 n.toString
@@ -46857,7 +46859,7 @@ m=A.k(a).ok.at
 m.toString
 l=A.k(a).ax
 k=l.y1
-e.push(A.hZ(j,A.Qj(A.ip(A.ee(A.hH(j,A.bw(A.b([new A.ay(B.FC,q,j),A.me(A.b6(j,A.b9(A.b([n,B.A6,A.a2(" Spin left",j,j,j,m.a8(k==null?l.k2:k),j)],r),B.m,B.o,B.D),B.l,j,j,new A.aJ(p,j,j,o,j,j,B.w),j,j,j,j,B.nS,j,j,j),B.Ng,!0)],r),B.dm,B.o,B.r),B.a8,!1,j,j,j,j,j,j,j,j,j,j,j,j,j,j,new A.att(g,a),j,j,j,j,j,j),j,j),j,A.aP(24e4,0)),-0.2,B.aa,j,A.aP(28e4,0),0),j,j,j,20,62,j))}return A.ji(j,j,A.iF(!1,A.cu(B.au,e,B.A,B.a3),B.a4,!0),j,!1)},
+r.push(A.hZ(j,A.Qj(A.ip(A.ee(A.hH(j,A.bw(A.b([new A.ay(B.FC,g,j),A.me(A.b6(j,A.b9(A.b([n,B.A6,A.a2(" Spin left",j,j,j,m.a8(k==null?l.k2:k),j)],p),B.m,B.o,B.D),B.l,j,j,new A.aJ(e,j,j,o,j,j,B.w),j,j,j,j,B.nS,j,j,j),B.Ng,!0)],p),B.dm,B.o,B.r),B.a8,!1,j,j,j,j,j,j,j,j,j,j,j,j,j,j,new A.att(q,a),j,j,j,j,j,j),j,j),j,A.aP(24e4,0)),-0.2,B.aa,j,A.aP(28e4,0),0),j,j,j,20,62,j))}return A.ji(j,j,A.iF(!1,A.cu(B.au,r,B.A,B.a3),B.a4,!0),j,!1)},
 $S:112}
 A.ato.prototype={
 $0(){var s,r=this.b,q=r.a4(t.E).f
