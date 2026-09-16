@@ -47427,6 +47427,7 @@ k.sn(n)
 k=a.Y(l).f
 l=A.ch(k.a,s,o)
 l.m(0,"streakMomentVariant",q.a)
+l.m(0,"streakMomentSettled",!1)
 k.sn(l)
 l=$.aAa()
 l=$.X.a5$.x.i(0,l)
@@ -48036,36 +48037,34 @@ o=o.a
 return A.im(p,p,p,new A.UX(s,q,r,o.e,!o.f,p),B.lV,!1)},
 $S:86}
 A.UX.prototype={
-az(a,a0){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=this,b=c.d
-if(b<=0)return
-s=a0.a
-r=new A.p(0,0,0+s,0+a0.b)
-q=c.b
-p=Math.cos(q*26/3.2*2*3.141592653589793)
-o=0.1+0.24*b
+az(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=this,c=d.d
+if(c<=0)return
+s=b.a
+r=new A.p(0,0,0+s,0+b.b)
+q=d.b
+p=0.5-0.5*Math.cos(q*26/3.2*2*3.141592653589793)
+o=(0.2+0.3*c)*(0.55+0.45*p)
 $.a4()
 n=A.b4()
-m=c.e
+m=d.e
 l=t.l
-k=c.c
-n.sn4(new A.o2(B.t,0.5,B.aN,null,0,A.b([m.c5(o),m.c5(o*0.32),m.c5(0)],l),B.L8,null).mh(A.ko(k,s*0.72*(1+0.08*(0.5-0.5*p)))))
+k=d.c
+n.sn4(new A.o2(B.t,0.5,B.aN,null,0,A.b([m.c5(o),m.c5(o*0.32),m.c5(0)],l),B.L8,null).mh(A.ko(k,s*0.66*(1+0.2*p))))
 a.eH(r,n)
-if(!c.f)return
-j=0.1*b
-if(j<=0.005)return
-i=m.c5(j)
-h=m.c5(0)
-g=A.b([],l)
-b=t.n
-f=A.b([],b)
-for(e=0;e<6;++e){d=e/6
-B.b.M(g,A.b([h,i,h],l))
-B.b.M(f,A.b([d,d+0.016666666666666666,d+0.03333333333333333],b))}g.push(h)
-f.push(1)
-b=a0.gYi()
+if(!d.f)return
+j=m.c5(0.05+0.13*c)
+i=m.c5(0)
+h=A.b([],l)
+c=t.n
+g=A.b([],c)
+for(f=0;f<6;++f){e=f/6
+B.b.M(h,A.b([i,j,i],l))
+B.b.M(g,A.b([e,e+0.016666666666666666,e+0.03333333333333333],c))}h.push(i)
+g.push(1)
+c=b.gYi()
 $.a4()
 s=A.b4()
-s.sn4(new A.oj(B.t,0,6.283185307179586,B.aN,g,f,new A.AE(q*2*3.141592653589793)).mh(A.ko(k,b*1.6)))
+s.sn4(new A.oj(B.t,0,6.283185307179586,B.aN,h,g,new A.AE(q*2*3.141592653589793)).mh(A.ko(k,c*1.6)))
 a.eH(r,s)},
 dX(a){return a.b!==this.b||a.d!==this.d||!a.c.j(0,this.c)}}
 A.G4.prototype={
