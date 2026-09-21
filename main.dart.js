@@ -46611,7 +46611,7 @@ if(!a.cy.f){j=A.b([],l)
 i=t.E
 h=a4.S(i).f.a
 if((A.tf(h.i(0,a1))?A.mQ(h.i(0,a1)):A.wU().ght().i(0,"rv")!=="off")&&A.azU(a4.S(i).f.a)){i=A.ck(a4.S(i).f.a.i(0,"rvVariant"))
-if(i==null)i=A.wU().ght().i(0,"rv")==="a"?"a":"b"
+if(i==null)i=A.wU().ght().i(0,"rv")==="b"?"b":"a"
 j.push(A.I(i==="a"?A.eI(B.iG,a.gakx()):A.eI(B.Zn,a.gaji()),a0,1/0))}else{i=a.cy.b
 if(i==="game")i="Start game"
 else i=i==="any"?"Pick a task":"Start survey"
